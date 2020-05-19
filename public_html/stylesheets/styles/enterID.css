@@ -1,0 +1,55 @@
+.enterId-container
+{
+  width: 90%;
+  height: auto;
+  margin: 10px 30px 0px 30px;
+  padding: 10px 0px 10px 0px;
+  border-top: 1px solid grey;
+}
+
+.enterId-view-container
+{
+  width: 90%;
+  height: auto;
+  margin: 10px 30px 0px 30px;
+  padding: 10px 30px 10px 30px;
+  border-top: 1px solid grey;
+}
+
+.enterID-input
+{
+
+}
+
+.enterID-entry-row
+{
+  background-color: rgba(234, 204, 68, .3);
+  border: 2px solid #d8b722;
+  width: 80%;
+  border-radius: 3px;
+}
+
+.enterID-entry-row > td
+{
+  vertical-align: center;
+}
+
+.enterID-entry-table
+{
+  border-collapse: collapse;
+}
+
+.enterID-error
+{
+  border: 3px solid red;
+  border-radius: 3px;
+  background-color: #ffc3bf;
+  margin: 10px 30px;
+  padding: 10px 20px;
+  width: 50%;
+}
+
+.enterID-kick
+{
+  cursor: pointer;
+}

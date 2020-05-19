@@ -1,0 +1,142 @@
+.menu-tab
+{
+
+}
+
+.menu-bar
+{
+  position: fixed;
+  margin-top: 0%;
+  background-color: #490000;
+  height: 100px;
+  width: 100%;
+  padding: 0px;
+  z-index: 10;
+  display: table;
+}
+
+.menu-title
+{
+  position: fixed;
+  margin-top: 13px;
+  left: 10%;
+  color: #C4C3C3;
+}
+
+.menu-title > h1
+{
+  font-size: 3.5em;
+}
+
+.menu-nav-container
+{
+  height: 75px;
+  width: 75px;
+  position: fixed;
+  right: 10%;
+  top: 12px;
+  cursor: pointer;
+}
+
+.menu-nav-bar
+{
+  width: 100%;
+  height: 12px;
+  background-color: #C4C3C3;
+  z-index: 10;
+}
+
+#nav-top
+{
+  position: absolute;
+  top: 10px;
+  left: 0px;
+}
+#nav-mid
+{
+  position: absolute;
+  top: 32px;
+  left: 0px;
+}
+#nav-bot
+{
+  position: absolute;
+  top: 54px;
+  left: 0px;
+}
+
+.menu-sidebar-container
+{
+  position: fixed;
+  right: -25%;
+  top: 0px;
+  width: 25%;
+  height: 100%;
+  background: linear-gradient(to top, #F0EFEF,white);
+  z-index: 11;
+  border-left: 3px solid #490000;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.menu-sidebar-exit
+{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.menu-sidebar-exit :hover
+{
+  opacity: .7;
+}
+
+.menu-nav-button-container
+{
+  position: relative;
+  top: 100px;
+  right: 0px;
+  width: 100%;
+  height: 50px;
+}
+
+.menu-nav-button
+{
+  width: 100%;
+  height: 100%;
+  font-size: 2em;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.menu-nav-button-container :hover
+{
+  background: linear-gradient(to left, #ea9a9a,#F0EFEF,#F0EFEF);
+}
+
+.menu-nav-button-link
+{
+  text-decoration: none;
+}
+
+.menu-divider
+{
+  width: 100%;
+  padding: 5px 0px 5px 0px;
+  position: relative;
+  top: 65px;
+  right: 0px;
+  border-bottom: 2px solid #490000;
+}
+
+.menu-divider > center > span
+{
+  margin: 0px auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3.2em;
+  color: #800000;
+}
